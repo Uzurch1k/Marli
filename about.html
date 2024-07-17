@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    
+    <script type="module" crossorigin src="/Marli/assets/vendor-27e9ff37.js"></script>
+    <script type="module" crossorigin src="/Marli/assets/main-b4228d01.js"></script>
+    <link rel="stylesheet" href="/Marli/assets/main-ec1a6f29.css">
+    <link rel="stylesheet" href="/Marli/assets/vendor-d3a6b5a6.css">
+  </head>
+
+  <body class="aboutPage">
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__top">
+  <div class="container">
+    <div class="header__body">
+      <div class="header__logo-wrapp">
+        <a
+          href="./index.html"
+          class="custom-logo-link"
+          rel="home"
+          aria-current="page"
+        >
+          <img
+            width="121"
+            height="44"
+            src="/Marli/assets/logo_h-155ce739.svg"
+            class="custom-logo lazyloaded"
+            alt="Marli"
+            decoding="async"
+          />
+        </a>
+      </div>
+
+      <address class="header__address">
+        <a href="mailto:contact@expressmarli.com" class="address-email">
+          contact@expressmarli.com
+        </a>
+        <a href="tel:+48730684425" class="address-tel">+48 730 684 425</a>
+      </address>
+
+      <a href="./calcstep1.html" class="header__link btn-def">
+        Calculate the price of delivery
+      </a>
+
+      <div class="header__rating">
+        <div class="header__company">
+          <img
+            width="110"
+            height="22"
+            src="/Marli/assets/trans-0f7d5add.svg"
+            alt="Trans.eu"
+          />
+        </div>
+        <div class="header__reviews">
+          <span>5 (22)</span>
+          <div class="header__stars">
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="header__lang">
+        <li
+          id="menu-item-406"
+          class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-406"
+        >
+          <a href="#">
+            <img src="data:image/jpeg;base64,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" alt="En" width="17" height="12" />
+            <span>English</span>
+          </a>
+          <ul class="sub-menu">
+            <li
+              id="menu-item-406-en"
+              class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+            >
+              <a href="/" hreflang="en-GB" lang="en-GB">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="En"
+                  width="17"
+                  height="12"
+                />
+                <span>English</span>
+              </a>
+            </li>
+            <li
+              id="menu-item-406-en"
+              class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+            >
+              <a href="/" hreflang="en-GB" lang="en-GB">
+                <img
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAANABMDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8qP8Aggl/yl0/Ys/7Hbxv/wCqg+Ilf7E/SP8A+TJ8e/8AYvy//wBXmVn8scBf8ldkv/X+v/6h4g/tb/4ODf8Ak2n4Lf8AZc4//UB8YV/hL4rf8ibLv+xmv/UXEH+8P7LX/k7/AIhf9m2n/wCtPkB/JNX4Of7mHz7/AMEEv+Uun7Fn/Y7eN/8A1UHxEr/pS+kf/wAmT49/7F+X/wDq8ys/4UuAv+SuyX/r/X/9Q8Qf2t/8HBv/ACbT8Fv+y5x/+oD4wr/CXxW/5E2Xf9jNf+ouIP8AeH9lr/yd/wAQv+zbT/8AWnyA/kmr8HP9zAD/2Q=="
+                  alt="En"
+                  width="17"
+                  height="12"
+                />
+                <span>French</span>
+              </a>
+            </li>
+            <li
+              id="menu-item-406-en"
+              class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+            >
+              <a href="/" hreflang="en-GB" lang="en-GB">
+                <img
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAANABMDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+rzwx/wAFIP8AgmZB4b8PQTftE/AuOaHQ9Jilja1bckkdhbo6NjQuqsCp9xXlvO8qWjx1DTzl/wDIn9Hw+iH9JapCFSHg5xhKFSMZwksNhLSjJKUZL/a9mmmjc/4eS/8ABMj/AKOL+BX/AICt/wDKKl/beU/9B1D75f8AyJX/ABKB9Jn/AKM3xh/4TYT/AOaz5W+JH/BQb/gnDe+NNZurT49/BKe3l/s7y5UtPlbZpVjG2M6ID8roynjqDVLOcrausbRa9Zf/ACJw1vopfSKw9SVGt4ScWU6kLc0JYfC3XNFSV7Yp7xkn6M/g/sPE3+g2f+hf8ulv/wAvP/TFP+mFflsqHvS977T+z5+p/wBIuXcW2y/Ar+z9sHhf+Yv/AKcQ/wCoYt/8JL/05f8Akz/9opew/vf+S/8ABOz/AFu/6l//AJd//ex57rniX/iaXX+hf88P+Xn/AKd4f+mFdNOj7i97v0835n5xn3Fl82xf/Cf/AM+P+Yr/AKhqP/UMAP/Z"
+                  alt="En"
+                  width="17"
+                  height="12"
+                />
+                <span>Polish</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <button class="header__burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</div>
+
+  <div class="header__bottom">
+  <div class="container">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="ankor"><a href="#ank1">Express delivery</a></li>
+        <li><a href="./calcstep1.html">Calculator </a></li>
+        <li><a href="#">Settlement</a></li>
+        <li><a href="#">Advantages </a></li>
+        <li><a href="#">Prices</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Invoicing</a></li>
+      </ul>
+      <ul class="header__list">
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+  <div class="mob-menu">
+  <div class="mob-menu__body">
+    <div class="header__bottom">
+  <div class="container">
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="ankor"><a href="#ank1">Express delivery</a></li>
+        <li><a href="./calcstep1.html">Calculator </a></li>
+        <li><a href="#">Settlement</a></li>
+        <li><a href="#">Advantages </a></li>
+        <li><a href="#">Prices</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Invoicing</a></li>
+      </ul>
+      <ul class="header__list">
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    <div class="mob-menu__btn">
+      <a href="#" class="btn-sec">Calculate the price of delivery</a>
+    </div>
+
+    <div class="mob-menu__lang">
+      <p class="mob-menu__lang-name">Language</p>
+      <div class="mob-menu__lang-wrapp">
+        <ul class="header__lang">
+          <li
+            id="menu-item-406"
+            class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-406"
+          >
+            <a href="#">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="En"
+                width="17"
+                height="12"
+              />
+              <span>English</span>
+            </a>
+            <ul class="sub-menu">
+              <li
+                id="menu-item-406-en"
+                class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+              >
+                <a href="/" hreflang="en-GB" lang="en-GB">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    alt="En"
+                    width="17"
+                    height="12"
+                  />
+                  <span>English</span>
+                </a>
+              </li>
+              <li
+                id="menu-item-406-en"
+                class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+              >
+                <a href="/" hreflang="en-GB" lang="en-GB">
+                  <img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAANABMDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD8qP8Aggl/yl0/Ys/7Hbxv/wCqg+Ilf7E/SP8A+TJ8e/8AYvy//wBXmVn8scBf8ldkv/X+v/6h4g/tb/4ODf8Ak2n4Lf8AZc4//UB8YV/hL4rf8ibLv+xmv/UXEH+8P7LX/k7/AIhf9m2n/wCtPkB/JNX4Of7mHz7/AMEEv+Uun7Fn/Y7eN/8A1UHxEr/pS+kf/wAmT49/7F+X/wDq8ys/4UuAv+SuyX/r/X/9Q8Qf2t/8HBv/ACbT8Fv+y5x/+oD4wr/CXxW/5E2Xf9jNf+ouIP8AeH9lr/yd/wAQv+zbT/8AWnyA/kmr8HP9zAD/2Q=="
+                    alt="En"
+                    width="17"
+                    height="12"
+                  />
+                  <span>French</span>
+                </a>
+              </li>
+              <li
+                id="menu-item-406-en"
+                class="lang-item lang-item-5 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-406-en"
+              >
+                <a href="/" hreflang="en-GB" lang="en-GB">
+                  <img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAANABMDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+rzwx/wAFIP8AgmZB4b8PQTftE/AuOaHQ9Jilja1bckkdhbo6NjQuqsCp9xXlvO8qWjx1DTzl/wDIn9Hw+iH9JapCFSHg5xhKFSMZwksNhLSjJKUZL/a9mmmjc/4eS/8ABMj/AKOL+BX/AICt/wDKKl/beU/9B1D75f8AyJX/ABKB9Jn/AKM3xh/4TYT/AOaz5W+JH/BQb/gnDe+NNZurT49/BKe3l/s7y5UtPlbZpVjG2M6ID8roynjqDVLOcrausbRa9Zf/ACJw1vopfSKw9SVGt4ScWU6kLc0JYfC3XNFSV7Yp7xkn6M/g/sPE3+g2f+hf8ulv/wAvP/TFP+mFflsqHvS977T+z5+p/wBIuXcW2y/Ar+z9sHhf+Yv/AKcQ/wCoYt/8JL/05f8Akz/9opew/vf+S/8ABOz/AFu/6l//AJd//ex57rniX/iaXX+hf88P+Xn/AKd4f+mFdNOj7i97v0835n5xn3Fl82xf/Cf/AM+P+Yr/AKhqP/UMAP/Z"
+                    alt="En"
+                    width="17"
+                    height="12"
+                  />
+                  <span>Polish</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mob-menu__address">
+      <address class="header__address">
+        <a href="mailto:contact@expressmarli.com" class="address-email">
+          contact@expressmarli.com
+        </a>
+      </address>
+    </div>
+
+    <div class="mob-menu__reviews">
+      <div class="header__rating">
+        <div class="header__company">
+          <img
+            width="110"
+            height="22"
+            src="/Marli/assets/trans-0f7d5add.svg"
+            alt="Trans.eu"
+          />
+        </div>
+        <div class="header__reviews">
+          <span>5 (22)</span>
+          <div class="header__stars">
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+            <span>
+              <img
+                src="/Marli/assets/star-b92547b3.svg"
+                alt="Star"
+                width="16"
+                height="16"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+
+      <main class="main">
+        <div class="about-overview">
+  <section class="overview">
+  <div class="container">
+    <div class="overview__body">
+      <div class="overview__content">
+        <h2 class="overview__title title-def">Company Overview</h2>
+        <div class="overview__box">
+          <div class="bloc-text">
+            <p>
+              Company Overview<br />
+              We're an express delivery company in France, operating since 2018.
+              We offer fast, stress-free deliveries within 24 hours or less,
+              specializing in deliveries to Corsica.
+            </p>
+            <p>
+              Our Services<br />
+              Express Delivery: Get your packages delivered in 24 hours or less.
+              Island Delivery: We deliver to Corsica and other challenging
+              locations.
+            </p>
+            <p>
+              Our Commitment<br />
+              Our team is dedicated to reliable, efficient service. We make sure
+              your packages arrive on time, without stress.
+            </p>
+          </div>
+        </div>
+        <div class="overview__link-dec">
+          <a href="./calcstep1.html" class="btn-def">
+            Calculate the price of delivery
+          </a>
+        </div>
+      </div>
+      <div class="overview__img-wrapp">
+        <img src="/Marli/assets/overview_1-8e8e1711.jpg" alt="Truck" />
+      </div>
+      <div class="overview__link-mob">
+        <a href="./calcstep1.html" class="btn-def">
+          Calculate the price of delivery
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+        <section class="success section-other">
+  <div class="container">
+    <div class="success__body">
+      <h2 class="success__title title-def">Success story</h2>
+      <ul class="success__list">
+        <li class="success__item">
+          <div class="success__headline-wrapp">
+            <div class="success__headline-box">
+              <h3>
+                2018<br />
+                year
+              </h3>
+            </div>
+          </div>
+          <div class="success__text-wrapp">
+            <p>
+              Founded in 2018 by Anna Urusova and Vladyslav Urusov, our express
+              delivery company aims to redefine the industry in France.
+            </p>
+          </div>
+        </li>
+        <li class="success__item">
+          <div class="success__headline-wrapp">
+            <div class="success__headline-box">
+              <h3>
+                2019<br />
+                year
+              </h3>
+            </div>
+          </div>
+          <div class="success__text-wrapp">
+            <p>
+              Despite being newcomers to the French market, Anna and Vladyslav
+              quickly established a robust logistics network and earned a
+              reputation for reliability.
+            </p>
+          </div>
+        </li>
+        <li class="success__item">
+          <div class="success__headline-wrapp">
+            <div class="success__headline-box">
+              <h3>
+                2022<br />
+                year
+              </h3>
+            </div>
+          </div>
+          <div class="success__text-wrapp">
+            <p>
+              Their unique specialization in island deliveries, especially to
+              Corsica, set them apart from competitors and demonstrated their
+              ability to tackle complex challenges.
+            </p>
+          </div>
+        </li>
+        <li class="success__item">
+          <div class="success__headline-wrapp">
+            <div class="success__headline-box">
+              <h3>
+                2024<br />
+                year
+              </h3>
+            </div>
+          </div>
+          <div class="success__text-wrapp">
+            <p>
+              Today, our company continues to thrive, offering fast and reliable
+              delivery services across France.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <div class="about-companies section-other">
+  <section class="companies">
+  <div class="container">
+    <div class="companies__body">
+      <h2 class="title-def">Companies ship faster with Marli</h2>
+      <div class="companies__box">
+        <div class="bloc-text">
+          <p>
+            Experience the competitive edge of expedited deliveries for your
+            business. Companies trust Marli for swift and reliable shipping
+            solutions. Whether it's across town or across borders, our
+            streamlined services ensure your packages reach their destination
+            faster than ever before.
+          </p>
+        </div>
+        <div class="bloc-text">
+          <p>Boost Your Shipping Speed with Marli!</p>
+          <p>
+            <b>Say goodbye to delays and hello to efficiency with Marli.</b>
+          </p>
+        </div>
+      </div>
+      <ul class="companies__list">
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="/Marli/assets/comp_1-0d9c2f92.svg" alt="GEODIS" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="/Marli/assets/comp_2-bfe6a88a.svg" alt="FRANCE EXPRESS" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="/Marli/assets/comp_3-5b6ac7cf.svg" alt="tdf" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="/Marli/assets/comp_4-86d76b74.svg" alt="selecta" />
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="/Marli/assets/comp_5-3ff68c0b.svg" alt="libre" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div>
+
+        <div class="about-delivery">
+  <section class="delivery">
+  <div class="container">
+    <div class="delivery__body">
+      <div class="delivery__content">
+        <h2 class="delivery__title">
+          Get a personalized calculation of the cost of delivery
+        </h2>
+        <p class="delivery__text">
+          If you have any questions, need technical advice, or need to find a
+          contractor in your region. Our experts will answer all your questions
+        </p>
+        <a href="./calcstep1.html" class="delivery__btn btn-def">
+          Calculate the price of delivery
+        </a>
+      </div>
+      <div class="delivery__img-wrapp">
+        <img src="/Marli/assets/truck-61f52a77.png" alt="Truck" />
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+      </main>
+
+      <footer class="footer-h">
+  <div class="container">
+    <div class="footer-h__body">
+      <div class="footer-h__info">
+        <div class="footer-h__logo-wrapp">
+          <a
+            href="./index.html"
+            class="custom-logo-link"
+            rel="home"
+            aria-current="page"
+          >
+            <img
+              width="121"
+              height="44"
+              src="/Marli/assets/logo_f-acfc1d05.svg"
+              class="custom-logo lazyloaded"
+              alt="Marli"
+              decoding="async"
+            />
+          </a>
+        </div>
+        <p class="footer-h__text">
+          Your reliable partner in the world of delivery with great prices and
+          excellent quality
+        </p>
+        <ul class="footer-h__list-pay">
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJZSURBVHgB7ZZdSJNRHMZ/77uxmQyT/J5hQ0xzFYZDm5IV6IUXFeRA+0IILK+KutBCErrIIgOxq6hAkIJE6YMoFCoRLU2nqxuZFVMXpdNmTErd5sfp3aLLDAzdjb+bA+fwP89znnM4/CUUDMaKeE2Y+i6SZJYgmlVEgFsS9Hglyp0DV8elLaaqBC2iT0LazBoiEF9m57QZcpgQN9ZaPEBAM3yDr04WklRAyJAKZeXO4wgRAW2ZELNuIOQG1MstHrFkc6Ikh+hNOgotdXim5+hsvUB3rwNZeb4pybGcOttIdeUBzFkpaDQqzPk1aDVqutou4vXOYy6oYcUGmh72YbWN8LzlHJm7DMzM+IiNiaD5iZUrlw7T/26U8pP72GNOpaK6GbVaxu9foKQoC5VKJjIynPi4jbgmpv+q8c8rcIx8C57cmKbHcsjEiNPNoP0ryYaY4OjzLaDTaSnYb6Sr51Ow5nhxDo0PullaEkpdAitO4A9vrQ4yM5IwKSnU33rBTuPvj3NwaIxHT224v//kzOn84FyLko4hKQrH8CSuyWmM2xJp7xxixQkEGHg/Su7uFGSVxONnNranJwZP5/w8RV7uVuwfxhhzeYiO0lFclB2suXbZgj4+UjGg578TsNpGg+OrDjsezyw70vXYP44TFxvBzevH8M8v0ts/zO2GDu7dKaO2vpWG+68pPZpLWWnesntLaaYqQQhZ/4jWDcjKC5wgRAS0ZUmIl4QM0SYjFisDDSJrTEDT6xfnVVOuNz90+r1NakGqkIhS2qRwVpFAW44Q7X7vwkHnYK37F/wk0wW9AOIyAAAAAElFTkSuQmCC"
+              alt="Visa"
+              width="32"
+              height="24"
+            />
+          </li>
+          <li>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKISURBVHgBxZZLaBNBGMf/M8nuNmlT+0hjcjKhBJUeVBAsHj15KgpFUPHisRBEEASh4Osm+ARvHhSkN6me9CYeBC+CIlKsoqe8rbWbh8k+xm+SNk3ZTdMEkv4uOzvffN/3n53ZmY9hnUwm89i27TPUVIQQw+gBjLFVelgej2chFAolGoZsNvuuVCoZpmmKXiNzyFy5XO5tTVQ6nb4bCATm/H6/hj5SLpcruq4/4iTqvEagz6iqqtGSX+CESmuCfrOeU+WWZY1gl6CvP+rtxMFOZ2Eufa+1laOHwIYG6wajCCv/udbkI5NgvtCOY+5IgCgUUbh1H8WHT4B/lXqiiTEMXUtAOeFF9dM9oLJaH+zRoExdhHrkEqkcbBubJZNJEYlEWg6w8yv4fXwG1vLPraK4Dd8sB48y8EkKxNnWwMNR+GYWwQbGW8ZOpVLgaIN+5aYjuUSZZmAhBlEiMXmnn1j7heqH22jHtgLEmo7ywqKrTTmwOWP7j7u/+eMlGavoWoD59RtQNVy8bMDX9F4Rcks7x9kGiVtG1wK29erO0zVUS7wH43RUKE6DySH+Ns1YY/KmcY5ThsBH4+haANszDN/ZU642o2lf8r3u/t7oSTKq6FqAJHBnHp54zNFvvaclXhE0Q3n4OGcvf0Pt2Dza0VYAnxhH8OMbDF6do5kGG/2eWAza9A1os9fBAvs2E/uCUA4n4D/9GhgYQ1vkQdQJxpclYaUyjn67lBG040UnyNwd3QUS79R+1/7a+d/BHbCBvI7z2CVkblmQ2HQlo9/InLJCk1/gGZVHOvoM1YUFKlKf1l6oIn5VKBT0PhalOuV8IXM3fmAqTh+Q/Rw1VdHbstyg5/NwOHxZ9v0HsaIg7u30MygAAAAASUVORK5CYII="
+              alt="MasterCard"
+              width="32"
+              height="24"
+            />
+          </li>
+          <li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH8SURBVHgBxZVLSxtRGIbfczI6sabVLGJDLdYubAsthdIus2m3/Q39AYVuSim0dNWFLnTpP/APuBJxo4IggnhBRCMo4y3e0EQzajImmeN3JhqNupjPS/LAcC7D8L7nu5wR0PweiiInuiEQo1UUD4nCJoQahYEf6Pq8JfB9JAyzMEPiz1FJFNbhBN5LBPNdFRfXaE3SluQkhmpB2pKGVlSPVgNCmGDyoTmEhqBRtjeVsHGQLYAFaRtg8iJsYvLXx2v7eVfhX5+FzqE1cJBg8jZaf+O+IQXav75Ec0MtOLAj0BapK80H4inkCm5pXRMQaAkHkTg4gV/YBt40PfJGrRuuMxC4FEMn7+JLWyPGltNU4P5gp+D1mQErmSkT10wkDtHSaCISqoFf2AZeRYoGNq6EeWmXDIniPJNz4RdWCuprZanItmwHaymHUqEg6Bi6LXUhWsksbMd/O7IMnJ9ek8oU8DgYKHu/d5xHz/gOODANXHTACRWcaQik6fIZXNz3ojG3fQTXb/XdxsB5AXofnlVPfOcY/fNJ3BaWgfFVG/8HVqjFFJ49KdbCZtp/z9/ZQH886T1N1GbfPj319hZ3s7gLAj+HmVm7X9j3wP0bUGoB1YK0Jd0ivagWpC3pF9ZBUwuVx9LaEp0xG0ehdxSPv9Rds3hoFKbhij+eJmmfAgPBnpRBgJ59AAAAAElFTkSuQmCC" alt="Pay" width="32" height="24" />
+          </li>
+        </ul>
+      </div>
+      <div class="footer-h__wrapp">
+        <div class="footer-h__box">
+          <p class="footer-h__tagline">Quick access</p>
+          <ul class="footer-h__list-pages">
+            <li><a href="#">Express delivery</a></li>
+            <li><a href="./calcstep1.html">Calculator</a></li>
+            <li><a href="#">Invoicing</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./contact.html">Contacts</a></li>
+            <li><a href="./politique.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-h__box">
+          <p class="footer-h__tagline">Top countries</p>
+          <ul class="footer-h__list-parts">
+            <li>
+              <ul class="footer-h__list-countries">
+                <li><a href="#">Austria</a></li>
+                <li><a href="#">Denmark</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">Lithuania</a></li>
+                <li><a href="#">Luxembourg</a></li>
+                <li><a href="#">Netherlands</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="footer-h__list-countries">
+                <li><a href="#">Poland</a></li>
+                <li><a href="#">Portugal</a></li>
+                <li><a href="#">Romania</a></li>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">Sweden</a></li>
+                <li><a href="#">Belgium</a></li>
+                <li><a href="#">Bulgaria</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="footer-h__list-countries">
+                <li><a href="#">Croatia</a></li>
+                <li><a href="#">Czech Republic</a></li>
+                <li><a href="#">Estonia</a></li>
+                <li><a href="#">Finland</a></li>
+                <li><a href="#">Greece</a></li>
+                <li><a href="#">Romania</a></li>
+                <li><a href="#">Slovakia</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-h__rights">
+      <p>©2022-2024 by Marli</p>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    
+  </body>
+</html>
