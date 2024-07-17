@@ -1,0 +1,110 @@
+<div class="loading-cl">
+  <div class="loading-cl__body">
+    <h2 class="title-calc">Enter shipment</h2>
+
+    <form class="loading-cl__form" id="loadingForm">
+      <label class="input-def check-input">
+        <span>Company</span>
+        <input type="text" name="loading-company" id="loading-company" />
+      </label>
+
+      <div class="loading-cl__box">
+        <label class="input-def">
+          <span>First name</span>
+          <input type="text" name="loading-firstname" id="loading-firstname" />
+        </label>
+
+        <label class="input-def">
+          <span>Last name</span>
+          <input type="text" name="loading-lastname" id="loading-lastname" />
+        </label>
+      </div>
+
+      <label class="input-def">
+        <span>Street + house no.</span>
+        <input type="text" name="loading-street" id="loading-street" />
+      </label>
+
+      <label class="input-def">
+        <span>Address in addition</span>
+        <input type="text" name="loading-address" id="loading-address" />
+      </label>
+
+      <div class="calc-address">
+        <span class="calc-address__title">Loading</span>
+        <div class="calc-address__wrapp">
+          <div class="calc-address__select">
+            <select id="select-loading">
+              <option value="1">AT Austria</option>
+              <option value="2">AT Austria</option>
+              <option value="3" disabled>AT Austria disabled</option>
+              <option value="4">AT Austria</option>
+            </select>
+          </div>
+
+          <div class="calc-address__choice">
+            <label class="calc-address__choice-input input-def">
+              <input type="text" name="loading-city" id="loading-city" />
+            </label>
+            <ul class="calc-address__choice-list">
+              <li>
+                <label>
+                  <span>AT Austria</span>
+                  <input
+                    type="radio"
+                    name="loading-address"
+                    id="loading-address"
+                    value="AT Austria"
+                  />
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <label class="input-def">
+        <span>Phone number</span>
+        <input type="number" name="loading-phone" id="loading-phone" />
+      </label>
+
+      <label class="input-def">
+        <span>Loading reference</span>
+        <input type="text" name="loading-reference" id="loading-reference" />
+      </label>
+
+      <div class="calc-time">
+        <span class="calc-time__title">
+          Pick up time (select desired time)
+        </span>
+
+        <div class="calc-time__wrapp">
+          <div class="calc-time__date">
+            <button type="button" class="calc-time__prev"></button>
+            <span>09.04.2024</span>
+            <button type="button" class="calc-time__next"></button>
+          </div>
+
+          <div class="calc-time__period">
+            <div class="calc-time__part">
+              <button type="button" class="calc-time__prev"></button>
+              <span>07:00</span>
+              <button type="button" class="calc-time__next"></button>
+            </div>
+            <span>-</span>
+            <div class="calc-time__part">
+              <button type="button" class="calc-time__prev"></button>
+              <span>09:00</span>
+              <button type="button" class="calc-time__next"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="loading-cl__btn" type="button">Add loading address</button>
+    </form>
+  </div>
+
+  <a href="./calcstep4.html" class="btn-sec">Continue to loading address</a>
+  <a href="./calcstep2.html" class="btn-back">Go back</a>
+</div>

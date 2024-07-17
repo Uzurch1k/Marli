@@ -1,0 +1,160 @@
+<div class="invoice-cl">
+  <div class="invoice-cl__body">
+    <h2 class="title-calc">Add invoice address</h2>
+
+    <form class="invoice-cl__form" id="invoiceForm">
+      <ul class="invoice-cl__list-choice">
+        <li>
+          <label class="radio-def">
+            <input
+              type="radio"
+              name="invoice-cl-choice"
+              id="invoice-cl-choice"
+            />
+            <span></span>
+            <p>Same as loading</p>
+          </label>
+        </li>
+        <li>
+          <label class="radio-def">
+            <input
+              type="radio"
+              name="invoice-cl-choice"
+              id="invoice-cl-choice"
+            />
+            <span></span>
+            <p>Same as unloading</p>
+          </label>
+        </li>
+        <li>
+          <label class="radio-def">
+            <input
+              type="radio"
+              name="invoice-cl-choice"
+              id="invoice-cl-choice"
+            />
+            <span></span>
+            <p>Different</p>
+          </label>
+        </li>
+      </ul>
+
+      <label class="input-def check-input">
+        <span>Email</span>
+        <input type="email" name="invoice-email" id="invoice-email" />
+      </label>
+
+      <label class="input-def">
+        <span>Company</span>
+        <input type="text" name="invoice-company" id="invoice-company" />
+      </label>
+
+      <ul class="invoice-cl__list-gender">
+        <li>
+          <label class="radio-def">
+            <input
+              type="radio"
+              name="invoice-cl-gender"
+              id="invoice-cl-gender"
+            />
+            <span></span>
+            <p>Mr.</p>
+          </label>
+        </li>
+        <li>
+          <label class="radio-def">
+            <input
+              type="radio"
+              name="invoice-cl-gender"
+              id="invoice-cl-gender"
+            />
+            <span></span>
+            <p>Ms.</p>
+          </label>
+        </li>
+      </ul>
+
+      <div class="invoice-cl__box">
+        <label class="input-def">
+          <span>First name</span>
+          <input type="text" name="invoice-firstname" id="invoice-firstname" />
+        </label>
+
+        <label class="input-def">
+          <span>Last name</span>
+          <input type="text" name="invoice-lastname" id="invoice-lastname" />
+        </label>
+      </div>
+
+      <label class="input-def">
+        <span>Street + house no.</span>
+        <input type="text" name="invoice-street" id="invoice-street" />
+      </label>
+
+      <label class="input-def">
+        <span>Address in addition</span>
+        <input type="text" name="invoice-address" id="invoice-address" />
+      </label>
+
+      <div class="calc-address">
+        <span class="calc-address__title">Loading</span>
+        <div class="calc-address__wrapp">
+          <div class="calc-address__select">
+            <select id="select-loading">
+              <option value="1">AT Austria</option>
+              <option value="2">AT Austria</option>
+              <option value="3" disabled>AT Austria disabled</option>
+              <option value="4">AT Austria</option>
+            </select>
+          </div>
+
+          <div class="calc-address__choice">
+            <label class="calc-address__choice-input input-def">
+              <input type="text" name="invoice-city" id="invoice-city" />
+            </label>
+            <ul class="calc-address__choice-list">
+              <li>
+                <label>
+                  <span>AT Austria</span>
+                  <input
+                    type="radio"
+                    name="invoice-address"
+                    id="invoice-address"
+                    value="AT Austria"
+                  />
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <label class="input-def">
+        <span>Phone number</span>
+        <input type="number" name="invoice-phone" id="invoice-phone" />
+      </label>
+
+      <label class="input-def">
+        <span>Unloading reference</span>
+        <input type="text" name="invoice-reference" id="invoice-reference" />
+      </label>
+
+      <div class="invoice-cl__btn-wrapp">
+        <button class="invoice-cl__btn" type="button">
+          Add loading address
+        </button>
+        <button class="invoice-cl__btn" type="button">
+          Add unloading address
+        </button>
+      </div>
+
+      <label class="input-def">
+        <span>Invoice E-Mail</span>
+        <input type="text" name="invoice-i-email" id="invoice-i-email" />
+      </label>
+    </form>
+  </div>
+
+  <a href="./calcstep6.html" class="btn-sec">Continue to payment</a>
+  <a href="./calcstep4.html" class="btn-back">Go back</a>
+</div>

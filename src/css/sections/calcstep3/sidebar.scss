@@ -1,0 +1,22 @@
+.calcstep3-sidebar {
+  .sidebar-load,
+  .sidebar-unload {
+    button {
+      display: none;
+    }
+  }
+
+  .load-personal {
+    display: none;
+  }
+  .load-time {
+    display: none;
+  }
+
+  .unload-personal {
+    display: none;
+  }
+  .unload-time {
+    display: none;
+  }
+}
